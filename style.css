@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #a8edea 1%, #fed6e3 50%, #ffeaa7 100%);
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 50%, #ffeaa7 100%);
     color: #2d3436;
     overflow-x: hidden;
 }
@@ -34,8 +34,8 @@ body::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(138, 255, 124, 0.44), rgba(255, 156, 56, 0.85)),
-url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnjD20mIFvomlGGYRF7DCXmMmH22v8RLxFQ6ylxVB07b2IIR4zHeZH-HHg&s=10') center/cover fixed;
+    background: linear-gradient(rgba(124, 211, 255, 0.44), rgba(117, 225, 116, 0.51)),
+url(/wallpaper_minecraft_bedrock_edition_2048x2048.png) center/cover fixed;
     z-index: -1;
     pointer-events: none;
 }
@@ -226,7 +226,7 @@ url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnjD20mIFvomlGGYRF7DC
 .logo-placeholder {
     width: 120px;
     height: 120px;
-    background: linear-gradient(135deg, rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+    background: linear-gradient(135deg, rgba(195, 156, 156, 0.3), rgba(0, 0, 0, 0.8));
     backdrop-filter: blur(10px);
     border: 3px solid;
     border-radius: 20px;
@@ -251,7 +251,7 @@ url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnjD20mIFvomlGGYRF7DC
     left: -50%;
     width: 200%;
     height: 200%;
-    background: linear-gradient(45deg, transparent, rgba(255, 0, 0, 0.3), transparent);
+    background: linear-gradient(45deg, transparent, rgba(255, 0, 0, 0), transparent);
     animation: shine 3s infinite;
 }
 
@@ -302,7 +302,7 @@ url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnjD20mIFvomlGGYRF7DC
 h1 {
     font-size: 4rem;
     font-weight: 800;
-    background: linear-gradient(45deg, #ff0000, #ff6b6b, #fff, #ff6b6b, #ff0000);
+    background: linear-gradient(45deg,#9FF7E6,#77F2A8);
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -372,7 +372,7 @@ h1 {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(29, 0, 255, 1), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0), transparent);
     transition: left 0.5s;
 }
 
@@ -387,8 +387,8 @@ h1 {
 
 .glass-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 50px rgba(161, 195, 214, 0.4), 0 0 40px rgba(255, 0, 0, 0.4);
-    border-color: rgba(255, 0, 0, 0.8);
+    box-shadow: 0 15px 50px rgba(161, 195, 214, 0.4), 0 0 40px rgba(186, 217, 200, 0.4);
+    border-color: rgba(176, 237, 167, 0.8);
 }
 
 .glass-card h2 {
@@ -525,7 +525,7 @@ h1 {
 }
 
 .arrow:hover {
-    background: rgba(255, 0, 0, 0.8);
+    background: rgba(142, 142, 235, 1);
     transform: scale(1.1);
 }
 
@@ -552,9 +552,9 @@ h1 {
 }
 
 .info-box strong {
-    color: #00FFA6;
+    color: #84E1C182;
     font-weight: 600;
-    text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(156, 229, 178, 0.5);
 }
 
 .rules-grid {
@@ -629,7 +629,7 @@ h1 {
     transition: all 0.3s ease;
     box-shadow: 0 10px 30px rgba(115, 208, 163, 0.5), 0 0 30px rgba(69, 137, 189, 0.3);
     margin-top: 2rem;
-    border: 0px solid #ff0000;
+    border: 0px solid #FFFFFF;
     position: relative;
     overflow: hidden;
     text-transform: uppercase;
@@ -666,7 +666,7 @@ h1 {
 
 .cta-button:hover {
     transform: translateY(-5px) scale(1.1);
-    box-shadow: 0 15px 40px rgba(170, 248, 212, 0.46), 0 0 60px rgba(255, 0, 0, 0.6);
+    box-shadow: 0 15px 40px rgba(170, 248, 212, 0.46), 0 0 60px rgba(169, 221, 189, 0.6);
     background-position: 100% 0;
 }
 
@@ -676,8 +676,8 @@ h1 {
 }
 
 .warning-box {
-    background: rgba(255, 107, 107, 0.2);
-    border-left: 4px solid #ff0000;
+    background: rgba(147, 226, 161, 0.2);
+    border-left: 4px solid #A1E5C1;
     padding: 1.5rem;
     border-radius: 15px;
     margin: 1.5rem 0;
@@ -775,8 +775,8 @@ h1 {
 .stat-card:hover {
     transform: scale(1.15);
     background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.9));
-    border-color: #ff0000;
-    box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);
+    border-color: #79C29E;
+    box-shadow: 0 0 30px rgba(135, 229, 181, 0.6);
 }
 
 .stat-number {
@@ -835,7 +835,7 @@ h1 {
 }
 
 .team-member.owner {
-    border: 3px solid #ffd700;
+    border: 3px solid #FFD700;
     background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(0, 0, 0, 0.7));
     box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
 }
@@ -889,7 +889,7 @@ h1 {
 
 .team-role {
     display: inline-block;
-    background: linear-gradient(45deg, #ff0000, #8b0000);
+    background: linear-gradient(45deg, #8FE4B5, #95E8A4);
     color: white;
     padding: 0.5rem 1.5rem;
     border-radius: 20px;
